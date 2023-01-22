@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ValidData" parallel="tests" >
+    <test name="LoginWithValidData" >
+        <classes>
+            <class name="com.telran.sconto.RunCucumberTest"/>
+        </classes>
+    </test>
+
+</suite>

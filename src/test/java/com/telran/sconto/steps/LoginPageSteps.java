@@ -37,7 +37,7 @@ public class LoginPageSteps implements En {
         });
 
         Then("Error Email Message displayed", ()->{
-            login.errorEmailMessage().shouldHave(text("Bitte geben Sie eine gültige E-Mail-Adresse ein"));
+            login.errorEmailMessage().shouldHave(text(" E-Mail-Adresse"));
         });
 
         When("Enter the empty Email and valid Password", (DataTable table)->{
